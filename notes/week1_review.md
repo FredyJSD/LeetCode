@@ -1,0 +1,1 @@
+# Markdown notes, strategy, mistakes
