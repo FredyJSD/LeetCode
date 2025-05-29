@@ -3,16 +3,14 @@
 
 # You must write an algorithm with O(log n) runtime complexity.
 
+
+#Final Solution
 def search(nums, target):
     """
     :type nums: List[int]
     :type target: int
     :rtype: int
     """
-    #Find half point of array
-    #If target is larger than midpoint, search upper half
-    #Else search lower half
-    #Repeat
     array_len = len(nums)
     left = 0
     right = array_len - 1
@@ -27,5 +25,10 @@ def search(nums, target):
     
     return -1
 
-    
+
+#Find half point of array
+#If target is larger than midpoint, search upper half
+#Else search lower half
+#Repeat
+
     
