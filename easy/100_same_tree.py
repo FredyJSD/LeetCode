@@ -18,4 +18,9 @@ def isSameTree(p, q):
         return False
 
     return isSameTree(p.left, q.left) and isSameTree(p.right, q.right)
+
+
+# Base cases make sure to check if the node is the same or not
+# Base cases return false if the nodes do not match
+# Recursivley checks left node and then right node
     
